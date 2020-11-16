@@ -1,0 +1,24 @@
+<canvas width="600" height="400"></canvas>
+
+<script>
+
+	var tela = document.querySelector("canvas");
+	var pincel = tela.getContext("2d");
+
+/*
+	//desenhando o quadro
+	pincel.fillStyle = "white";
+	//1 parametro(posição do X no plano cartesiano - eixo x)
+	//2 parametro(posição do Y no plano cartesiano - eixo y)
+	//3 parametro (Largura do x )
+	//4º parametro (Altura do y)
+	pincel.fillRect(0,0,600,400);
+	*/
+
+// criando a arte no canvas
+	pincel.fillStyle = "green"
+	pincel.fillRect(0,0,200,400);
+	pincel.fillStyle = "red"
+	pincel.fillRect(400,0,400,400);
+
+</script>
